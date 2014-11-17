@@ -22,7 +22,6 @@
 		C97444291A1A65CC003ACFD8 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C97444211A1A65C5003ACFD8 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C988FDBD1A1A6D6000F969DF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C988FD871A1A6A9C00F969DF /* Location.swift */; };
 		C988FDBE1A1A6D6400F969DF /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C988FD851A1A6A9C00F969DF /* Beacon.swift */; };
-		C988FDC21A1A7B2200F969DF /* NearbyBeaconCellFast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C988FDC11A1A7B2200F969DF /* NearbyBeaconCellFast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,7 +102,6 @@
 		C97444191A1A65C5003ACFD8 /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = SwiftyJSON/SwiftyJSON.xcodeproj; sourceTree = SOURCE_ROOT; };
 		C988FD851A1A6A9C00F969DF /* Beacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
 		C988FD871A1A6A9C00F969DF /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		C988FDC11A1A7B2200F969DF /* NearbyBeaconCellFast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyBeaconCellFast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +146,6 @@
 			children = (
 				C97444051A1A639C003ACFD8 /* Loader.swift */,
 				C97444011A1A5FA0003ACFD8 /* NearbyBeaconCell.swift */,
-				C988FDC41A1A7B4300F969DF /* Optimized */,
 				C988FDC31A1A7B3700F969DF /* Aux */,
 				C988FD891A1A6AA500F969DF /* Models */,
 				C97443D81A1A5AB0003ACFD8 /* Supporting Files */,
@@ -215,14 +212,6 @@
 				C97443E81A1A5AB0003ACFD8 /* LaunchScreen.xib */,
 			);
 			name = Aux;
-			sourceTree = "<group>";
-		};
-		C988FDC41A1A7B4300F969DF /* Optimized */ = {
-			isa = PBXGroup;
-			children = (
-				C988FDC11A1A7B2200F969DF /* NearbyBeaconCellFast.swift */,
-			);
-			name = Optimized;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,7 +357,6 @@
 			files = (
 				C97443DB1A1A5AB0003ACFD8 /* AppDelegate.swift in Sources */,
 				C97443DE1A1A5AB0003ACFD8 /* Interview_Tests.xcdatamodeld in Sources */,
-				C988FDC21A1A7B2200F969DF /* NearbyBeaconCellFast.swift in Sources */,
 				C988FDBD1A1A6D6000F969DF /* Location.swift in Sources */,
 				C97444061A1A639C003ACFD8 /* Loader.swift in Sources */,
 				C97444021A1A5FA0003ACFD8 /* NearbyBeaconCell.swift in Sources */,

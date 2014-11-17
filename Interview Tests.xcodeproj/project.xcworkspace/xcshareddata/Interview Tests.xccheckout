@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A8F964D5-5F2C-4D66-88B4-E7C03BE5EE37</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Interview Tests</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BAF626DF90C65CD39B5BDF9A8CA6E5F6343F2665</key>
+		<string>github.com:MattNewberry/InterviewTests.git</string>
+		<key>C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3</key>
+		<string>github.com:SwiftyJSON/SwiftyJSON.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Interview Tests.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BAF626DF90C65CD39B5BDF9A8CA6E5F6343F2665</key>
+		<string>../..</string>
+		<key>C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3</key>
+		<string>../..SwiftyJSON/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:MattNewberry/InterviewTests.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BAF626DF90C65CD39B5BDF9A8CA6E5F6343F2665</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BAF626DF90C65CD39B5BDF9A8CA6E5F6343F2665</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Interview%20Tests</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftyJSON</string>
+		</dict>
+	</array>
+</dict>
+</plist>
