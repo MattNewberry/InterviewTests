@@ -8,18 +8,7 @@
 
 import UIKit
 
-struct FibGenerator {
-    typealias Element = Int
-    var i = 0, j = 0
-    mutating func next() -> Int? {
-        if (i == 0) {i = 1; return 1}
-        if (j == 0) {j = 2; return 2}
-        var sum = i + j; i = j; j = sum
-        return sum
-    }
-}
-
-class NearbyBeaconCell: UITableViewCell {
+class NearbyBeaconCellFast: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var numberLabel: UILabel!
@@ -31,12 +20,12 @@ class NearbyBeaconCell: UITableViewCell {
     }
     
     override func awakeFromNib() {
-        nameLabel.layer.shadowOpacity = 0.5
-        nameLabel.layer.shadowRadius = 1
-        
-        locationLabel.layer.shadowOpacity = 0.5
-        locationLabel.layer.shadowRadius = 1
-        locationLabel.alpha = 1
+//        nameLabel.layer.shadowOpacity = 0.5
+//        nameLabel.layer.shadowRadius = 1
+//        
+//        locationLabel.layer.shadowOpacity = 0.5
+//        locationLabel.layer.shadowRadius = 1
+//        locationLabel.alpha = 1
     }
     
     func reload() {

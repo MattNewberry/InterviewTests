@@ -13,6 +13,7 @@ class Beacon: NSManagedObject {
 
     @NSManaged var hexColor: String
     @NSManaged var name: String
-    @NSManaged var location: NSManagedObject
+    @NSManaged var id: NSNumber
+    @NSManaged var location: Location
 
 }

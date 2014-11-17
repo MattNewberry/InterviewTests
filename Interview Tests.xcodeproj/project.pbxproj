@@ -15,6 +15,14 @@
 		C97443E71A1A5AB0003ACFD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C97443E61A1A5AB0003ACFD8 /* Images.xcassets */; };
 		C97443EA1A1A5AB0003ACFD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97443E81A1A5AB0003ACFD8 /* LaunchScreen.xib */; };
 		C97443F61A1A5AB0003ACFD8 /* Interview_TestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97443F51A1A5AB0003ACFD8 /* Interview_TestsTests.swift */; };
+		C97444021A1A5FA0003ACFD8 /* NearbyBeaconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97444011A1A5FA0003ACFD8 /* NearbyBeaconCell.swift */; };
+		C97444041A1A633E003ACFD8 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C97444031A1A633E003ACFD8 /* data.json */; };
+		C97444061A1A639C003ACFD8 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97444051A1A639C003ACFD8 /* Loader.swift */; };
+		C97444281A1A65CC003ACFD8 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97444211A1A65C5003ACFD8 /* SwiftyJSON.framework */; };
+		C97444291A1A65CC003ACFD8 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C97444211A1A65C5003ACFD8 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C988FDBD1A1A6D6000F969DF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C988FD871A1A6A9C00F969DF /* Location.swift */; };
+		C988FDBE1A1A6D6400F969DF /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C988FD851A1A6A9C00F969DF /* Beacon.swift */; };
+		C988FDC21A1A7B2200F969DF /* NearbyBeaconCellFast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C988FDC11A1A7B2200F969DF /* NearbyBeaconCellFast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +33,56 @@
 			remoteGlobalIDString = C97443D41A1A5AB0003ACFD8;
 			remoteInfo = "Interview Tests";
 		};
+		C97444201A1A65C5003ACFD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97444191A1A65C5003ACFD8 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFDB19575BE100351305;
+			remoteInfo = SwiftyJSON;
+		};
+		C97444221A1A65C5003ACFD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97444191A1A65C5003ACFD8 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFE619575BE100351305;
+			remoteInfo = SwiftyJSONTests;
+		};
+		C97444241A1A65C5003ACFD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97444191A1A65C5003ACFD8 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4EC1C1C91A0C1A2D0026ED0B;
+			remoteInfo = SwiftyJSONOSX;
+		};
+		C97444261A1A65C5003ACFD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97444191A1A65C5003ACFD8 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4EC1C1D31A0C1A2D0026ED0B;
+			remoteInfo = SwiftyJSONOSXTests;
+		};
+		C974442A1A1A65CC003ACFD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97444191A1A65C5003ACFD8 /* SwiftyJSON.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4FEFDA19575BE100351305;
+			remoteInfo = SwiftyJSON;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C974442C1A1A65CD003ACFD8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C97444291A1A65CC003ACFD8 /* SwiftyJSON.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C97443D51A1A5AB0003ACFD8 /* Interview Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interview Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +97,13 @@
 		C97443EF1A1A5AB0003ACFD8 /* Interview TestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interview TestsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97443F41A1A5AB0003ACFD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C97443F51A1A5AB0003ACFD8 /* Interview_TestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interview_TestsTests.swift; sourceTree = "<group>"; };
+		C97444011A1A5FA0003ACFD8 /* NearbyBeaconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyBeaconCell.swift; sourceTree = "<group>"; };
+		C97444031A1A633E003ACFD8 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		C97444051A1A639C003ACFD8 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		C97444191A1A65C5003ACFD8 /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = SwiftyJSON/SwiftyJSON.xcodeproj; sourceTree = SOURCE_ROOT; };
+		C988FD851A1A6A9C00F969DF /* Beacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
+		C988FD871A1A6A9C00F969DF /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C988FDC11A1A7B2200F969DF /* NearbyBeaconCellFast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyBeaconCellFast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C97444281A1A65CC003ACFD8 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,13 +146,11 @@
 		C97443D71A1A5AB0003ACFD8 /* Interview Tests */ = {
 			isa = PBXGroup;
 			children = (
-				C97443DA1A1A5AB0003ACFD8 /* AppDelegate.swift */,
-				C97443DF1A1A5AB0003ACFD8 /* MasterViewController.swift */,
-				C97443E11A1A5AB0003ACFD8 /* DetailViewController.swift */,
-				C97443E31A1A5AB0003ACFD8 /* Main.storyboard */,
-				C97443E61A1A5AB0003ACFD8 /* Images.xcassets */,
-				C97443E81A1A5AB0003ACFD8 /* LaunchScreen.xib */,
-				C97443DC1A1A5AB0003ACFD8 /* Interview_Tests.xcdatamodeld */,
+				C97444051A1A639C003ACFD8 /* Loader.swift */,
+				C97444011A1A5FA0003ACFD8 /* NearbyBeaconCell.swift */,
+				C988FDC41A1A7B4300F969DF /* Optimized */,
+				C988FDC31A1A7B3700F969DF /* Aux */,
+				C988FD891A1A6AA500F969DF /* Models */,
 				C97443D81A1A5AB0003ACFD8 /* Supporting Files */,
 			);
 			path = "Interview Tests";
@@ -96,6 +159,8 @@
 		C97443D81A1A5AB0003ACFD8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C97444191A1A65C5003ACFD8 /* SwiftyJSON.xcodeproj */,
+				C97444031A1A633E003ACFD8 /* data.json */,
 				C97443D91A1A5AB0003ACFD8 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -118,6 +183,48 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C974441A1A1A65C5003ACFD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C97444211A1A65C5003ACFD8 /* SwiftyJSON.framework */,
+				C97444231A1A65C5003ACFD8 /* SwiftyJSONTests.xctest */,
+				C97444251A1A65C5003ACFD8 /* SwiftyJSON.framework */,
+				C97444271A1A65C5003ACFD8 /* SwiftyJSONOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C988FD891A1A6AA500F969DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C97443DC1A1A5AB0003ACFD8 /* Interview_Tests.xcdatamodeld */,
+				C988FD871A1A6A9C00F969DF /* Location.swift */,
+				C988FD851A1A6A9C00F969DF /* Beacon.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C988FDC31A1A7B3700F969DF /* Aux */ = {
+			isa = PBXGroup;
+			children = (
+				C97443DA1A1A5AB0003ACFD8 /* AppDelegate.swift */,
+				C97443DF1A1A5AB0003ACFD8 /* MasterViewController.swift */,
+				C97443E11A1A5AB0003ACFD8 /* DetailViewController.swift */,
+				C97443E31A1A5AB0003ACFD8 /* Main.storyboard */,
+				C97443E61A1A5AB0003ACFD8 /* Images.xcassets */,
+				C97443E81A1A5AB0003ACFD8 /* LaunchScreen.xib */,
+			);
+			name = Aux;
+			sourceTree = "<group>";
+		};
+		C988FDC41A1A7B4300F969DF /* Optimized */ = {
+			isa = PBXGroup;
+			children = (
+				C988FDC11A1A7B2200F969DF /* NearbyBeaconCellFast.swift */,
+			);
+			name = Optimized;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,10 +235,12 @@
 				C97443D11A1A5AB0003ACFD8 /* Sources */,
 				C97443D21A1A5AB0003ACFD8 /* Frameworks */,
 				C97443D31A1A5AB0003ACFD8 /* Resources */,
+				C974442C1A1A65CD003ACFD8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C974442B1A1A65CC003ACFD8 /* PBXTargetDependency */,
 			);
 			name = "Interview Tests";
 			productName = "Interview Tests";
@@ -167,6 +276,7 @@
 				TargetAttributes = {
 					C97443D41A1A5AB0003ACFD8 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = QPU8QS3E62;
 					};
 					C97443EE1A1A5AB0003ACFD8 = {
 						CreatedOnToolsVersion = 6.1;
@@ -185,6 +295,12 @@
 			mainGroup = C97443CC1A1A5AB0003ACFD8;
 			productRefGroup = C97443D61A1A5AB0003ACFD8 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C974441A1A1A65C5003ACFD8 /* Products */;
+					ProjectRef = C97444191A1A65C5003ACFD8 /* SwiftyJSON.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C97443D41A1A5AB0003ACFD8 /* Interview Tests */,
@@ -192,6 +308,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C97444211A1A65C5003ACFD8 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = C97444201A1A65C5003ACFD8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C97444231A1A65C5003ACFD8 /* SwiftyJSONTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftyJSONTests.xctest;
+			remoteRef = C97444221A1A65C5003ACFD8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C97444251A1A65C5003ACFD8 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = C97444241A1A65C5003ACFD8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C97444271A1A65C5003ACFD8 /* SwiftyJSONOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftyJSONOSXTests.xctest;
+			remoteRef = C97444261A1A65C5003ACFD8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C97443D31A1A5AB0003ACFD8 /* Resources */ = {
@@ -201,6 +348,7 @@
 				C97443E51A1A5AB0003ACFD8 /* Main.storyboard in Resources */,
 				C97443EA1A1A5AB0003ACFD8 /* LaunchScreen.xib in Resources */,
 				C97443E71A1A5AB0003ACFD8 /* Images.xcassets in Resources */,
+				C97444041A1A633E003ACFD8 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +368,13 @@
 			files = (
 				C97443DB1A1A5AB0003ACFD8 /* AppDelegate.swift in Sources */,
 				C97443DE1A1A5AB0003ACFD8 /* Interview_Tests.xcdatamodeld in Sources */,
+				C988FDC21A1A7B2200F969DF /* NearbyBeaconCellFast.swift in Sources */,
+				C988FDBD1A1A6D6000F969DF /* Location.swift in Sources */,
+				C97444061A1A639C003ACFD8 /* Loader.swift in Sources */,
+				C97444021A1A5FA0003ACFD8 /* NearbyBeaconCell.swift in Sources */,
 				C97443E01A1A5AB0003ACFD8 /* MasterViewController.swift in Sources */,
 				C97443E21A1A5AB0003ACFD8 /* DetailViewController.swift in Sources */,
+				C988FDBE1A1A6D6400F969DF /* Beacon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +393,11 @@
 			isa = PBXTargetDependency;
 			target = C97443D41A1A5AB0003ACFD8 /* Interview Tests */;
 			targetProxy = C97443F01A1A5AB0003ACFD8 /* PBXContainerItemProxy */;
+		};
+		C974442B1A1A65CC003ACFD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			targetProxy = C974442A1A1A65CC003ACFD8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -346,6 +504,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Interview Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +516,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Interview Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -415,6 +577,7 @@
 				C97443FB1A1A5AB0003ACFD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C97443FC1A1A5AB0003ACFD8 /* Build configuration list for PBXNativeTarget "Interview TestsTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +586,7 @@
 				C97443FE1A1A5AB0003ACFD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
